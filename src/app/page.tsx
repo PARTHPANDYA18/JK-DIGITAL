@@ -1,69 +1,62 @@
-import Image from "next/image";
+import HeroSection from "@/components/hero/HeroSection";
+import TrustBar from "@/components/marquee/TrustBar";
+import ServicesSection from "@/components/services/ServicesSection";
+import WhyChooseUs from "@/components/comparison/WhyChooseUs";
+import ProcessTimeline from "@/components/process/ProcessTimeline";
+import PortfolioBento from "@/components/portfolio/PortfolioBento";
+import DeviceMockupShowcase from "@/components/showcase/DeviceMockupShowcase";
+import GoogleAdsSection from "@/components/specialized/GoogleAdsSection";
+import SeoRankingSection from "@/components/specialized/SeoRankingSection";
+import SocialMediaSection from "@/components/specialized/SocialMediaSection";
+import IndustriesCarousel from "@/components/industries/IndustriesCarousel";
+import TestimonialsSlider from "@/components/testimonials/TestimonialsSlider";
+import FaqSection from "@/components/faq/FaqSection";
+import ContactSection from "@/components/contact/ContactSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="flex flex-col w-full">
+      {/* 01. Cinematic Fullscreen Hero with Canvas Particles */}
+      <HeroSection />
+
+      {/* 02. Continuous Partner & Technology Trust Marquee */}
+      <TrustBar />
+
+      {/* 03. 10 High-Impact Core Agency Services */}
+      <ServicesSection />
+
+      {/* 04. Traditional Agency vs JK Digital Interactive Matrix */}
+      <WhyChooseUs />
+
+      {/* 05. 7-Stage Growth Engineering Methodology */}
+      <ProcessTimeline />
+
+      {/* 06. Bento Grid Portfolio & Before/After Transformation Slider */}
+      <PortfolioBento />
+
+      {/* 07. Responsive 3D Device Showcase (Laptop, Tablet, Phone) */}
+      <DeviceMockupShowcase />
+
+      {/* 08. Google Ads & Live ROAS Revenue Simulator */}
+      <GoogleAdsSection />
+
+      {/* 09. SEO Rank #1 Tracker & Technical Audit Scorecard */}
+      <SeoRankingSection />
+
+      {/* 10. Social Media & Viral Reels Video Editing */}
+      <SocialMediaSection />
+
+      {/* 11. Industries We Serve (11 Niches) Carousel */}
+      <IndustriesCarousel />
+
+      {/* 12. Verified Google 5-Star Reviews & Video Testimonials */}
+      <TestimonialsSlider />
+
+      {/* 13. Animated FAQ Accordion */}
+      <FaqSection />
+
+      {/* 14. Lead-Generating Glassmorphism Contact Form */}
+      <ContactSection />
     </div>
   );
 }
