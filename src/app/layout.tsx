@@ -50,6 +50,11 @@ export const metadata: Metadata = {
   authors: [{ name: "JK Digital Solutions" }],
   creator: "JK Digital Solutions",
   publisher: "JK Digital Solutions",
+  icons: {
+    icon: "/logo-white.png",
+    shortcut: "/logo-white.png",
+    apple: "/logo-white.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_IN",

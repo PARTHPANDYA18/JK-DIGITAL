@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowUpRight, Mail, Phone, MapPin, Sparkles, Send, Globe } from "lucide-react";
+import JkLogo from "@/components/ui/JkLogo";
 
 export default function Footer() {
   return (
@@ -52,13 +53,8 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 border-b border-white/10">
           {/* Column 1: Agency Brand */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#FF8A26] to-[#FF6B00] flex items-center justify-center font-heading font-black text-black text-lg shadow-[0_0_15px_rgba(255,107,0,0.4)]">
-                JK
-              </div>
-              <span className="font-heading font-bold text-xl tracking-tight text-white">
-                JK DIGITAL <span className="text-[#FF6B00]">SOLUTIONS</span>
-              </span>
+            <Link href="/" className="inline-block" data-cursor-text="JK">
+              <JkLogo size="md" showText={true} />
             </Link>
             <p className="text-neutral-400 text-sm leading-relaxed max-w-sm">
               Ahmedabad&apos;s premier high-performance digital marketing, custom Next.js development, and brand strategy agency. Engineering growth machines for forward-thinking brands.

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ArrowUpRight, MessageCircle, Sparkles } from "lucide-react";
+import JkLogo from "@/components/ui/JkLogo";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -65,21 +66,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 group cursor-pointer"
+            className="flex items-center cursor-pointer"
             data-cursor-text="JK"
           >
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#FF8A26] to-[#FF6B00] flex items-center justify-center font-heading font-black text-black text-lg shadow-[0_0_15px_rgba(255,107,0,0.4)] group-hover:scale-105 transition-transform">
-              JK
-            </div>
-            <div className="flex flex-col">
-              <span className="font-heading font-bold text-base tracking-tight text-white flex items-center gap-1">
-                JK DIGITAL
-                <span className="w-1.5 h-1.5 rounded-full bg-[#FF6B00] animate-pulse" />
-              </span>
-              <span className="text-[10px] tracking-widest uppercase text-neutral-400 font-medium">
-                Solutions
-              </span>
-            </div>
+            <JkLogo size="sm" showText={true} />
           </Link>
 
           {/* Desktop Links */}
