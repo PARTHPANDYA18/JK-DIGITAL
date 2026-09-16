@@ -112,7 +112,7 @@ export default function Navbar() {
             </Link>
 
             <a
-              href="https://wa.me/919876543210?text=Hi%20JK%20Digital,%20I%20am%20interested%20in%20scaling%20my%20business%20with%20your%20services."
+              href="https://wa.me/918401296111?text=Hi%20JK%20Digital,%20I%20am%20interested%20in%20scaling%20my%20business%20with%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="relative group px-4 py-2 rounded-xl text-xs font-bold tracking-wide text-black bg-gradient-to-r from-[#FF8A26] to-[#FF6B00] shadow-[0_0_20px_rgba(255,107,0,0.35)] hover:shadow-[0_0_30px_rgba(255,107,0,0.6)] transition-all flex items-center gap-1.5 active:scale-95"
@@ -169,7 +169,7 @@ export default function Navbar() {
                   Get Free Audit
                 </Link>
                 <a
-                  href="https://wa.me/919876543210?text=Hi%20JK%20Digital,%20I%20am%20interested%20in%20scaling%20my%20business."
+                  href="https://wa.me/918401296111?text=Hi%20JK%20Digital,%20I%20am%20interested%20in%20scaling%20my%20business."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-center py-2.5 rounded-xl text-sm font-bold text-black bg-gradient-to-r from-[#FF8A26] to-[#FF6B00] shadow-[0_0_20px_rgba(255,107,0,0.4)] flex items-center justify-center gap-2"

@@ -39,7 +39,7 @@ export default function PrivacyPage() {
 
         <h3 className="font-heading font-bold text-lg text-white">3. Contact Us</h3>
         <p>
-          For questions regarding this policy, contact our compliance officer at hello@jkdigital.in.
+          For questions regarding this policy, contact our compliance officer at kalaljignesh00@gmail.com.
         </p>
       </div>
     </div>

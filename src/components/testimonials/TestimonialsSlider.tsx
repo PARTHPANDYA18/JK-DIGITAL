@@ -124,7 +124,7 @@ export default function TestimonialsSlider() {
                 &quot;{selectedVideo.text}&quot;
               </div>
               <a
-                href="https://wa.me/919876543210?text=Hi,%20I%20saw%20your%20client%20case%20studies%20and%20want%20similar%20growth."
+                href="https://wa.me/918401296111?text=Hi,%20I%20saw%20your%20client%20case%20studies%20and%20want%20similar%20growth."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 rounded-xl bg-[#FF6B00] text-black font-bold text-xs uppercase tracking-wider shadow-lg"

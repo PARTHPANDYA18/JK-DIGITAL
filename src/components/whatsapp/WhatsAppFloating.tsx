@@ -5,7 +5,7 @@ import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppFloating() {
   const whatsappUrl =
-    "https://wa.me/919876543210?text=Hello%20JK%20Digital%20Solutions,%20I%20am%20looking%20for%20a%20high-performance%20website%20and%20marketing%20growth%20strategy.";
+    "https://wa.me/918401296111?text=Hello%20JK%20Digital%20Solutions,%20I%20am%20looking%20for%20a%20high-performance%20website%20and%20marketing%20growth%20strategy.";
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex items-center group">

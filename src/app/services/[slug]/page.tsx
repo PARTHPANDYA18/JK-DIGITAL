@@ -72,7 +72,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           </Link>
 
           <a
-            href={`https://wa.me/919876543210?text=Hi%20JK%20Digital,%20I'm%20interested%20in%20your%20${encodeURIComponent(service.title)}%20service.`}
+            href={`https://wa.me/918401296111?text=Hi%20JK%20Digital,%20I'm%20interested%20in%20your%20${encodeURIComponent(service.title)}%20service.`}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-4 rounded-xl glass-panel border border-white/10 text-white font-heading font-semibold text-xs uppercase tracking-wider hover:bg-white/10 transition-all flex items-center gap-2"

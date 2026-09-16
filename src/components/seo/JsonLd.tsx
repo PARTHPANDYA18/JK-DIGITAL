@@ -10,8 +10,8 @@ export default function JsonLd() {
         "logo": "https://jkdigital.in/logo.png",
         "image": "https://jkdigital.in/og-image.jpg",
         "description": "Ahmedabad's premier high-performance digital marketing, custom Next.js development, SEO, and Google Ads agency.",
-        "telephone": "+919876543210",
-        "email": "hello@jkdigital.in",
+        "telephone": "+918401296111",
+        "email": "kalaljignesh00@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Bodakdev, SG Highway",

@@ -93,7 +93,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <span className="text-xs text-neutral-400 font-medium">Direct Growth Line</span>
-                  <p className="font-heading font-bold text-white text-base">+91 98765 43210</p>
+                  <p className="font-heading font-bold text-white text-base">(91) 84012 96111</p>
                   <span className="text-[11px] text-[#FF8A26]">Mon - Sat: 9:30 AM to 8:00 PM</span>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <span className="text-xs text-neutral-400 font-medium">Official Inquiry Email</span>
-                  <p className="font-heading font-bold text-white text-base">hello@jkdigital.in</p>
+                  <p className="font-heading font-bold text-white text-base">kalaljignesh00@gmail.com</p>
                   <span className="text-[11px] text-neutral-400">Guaranteed response in &lt;2 hours</span>
                 </div>
               </div>
@@ -124,7 +124,7 @@ export default function ContactSection() {
             {/* WhatsApp Quick CTA */}
             <div className="pt-2">
               <a
-                href="https://wa.me/919876543210?text=Hi%20JK%20Digital,%20I%20am%20interested%20in%20scaling%20my%20business."
+                href="https://wa.me/918401296111?text=Hi%20JK%20Digital,%20I%20am%20interested%20in%20scaling%20my%20business."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-white font-heading font-bold text-xs uppercase tracking-wider text-center flex items-center justify-center gap-2 transition-colors"
@@ -193,7 +193,7 @@ export default function ContactSection() {
                       <input
                         type="tel"
                         required
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 84012 96111"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-[#FF6B00] transition-colors"

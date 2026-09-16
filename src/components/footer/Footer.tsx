@@ -38,7 +38,7 @@ export default function Footer() {
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </Link>
             <a
-              href="https://wa.me/919876543210?text=Hi%20JK%20Digital,%20I'd%20like%20to%20schedule%20a%20strategy%20call."
+              href="https://wa.me/918401296111?text=Hi%20JK%20Digital,%20I'd%20like%20to%20schedule%20a%20strategy%20call."
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-4 rounded-xl font-heading font-semibold text-sm uppercase tracking-wider text-white bg-white/5 hover:bg-white/10 border border-white/10 transition-all text-center flex items-center justify-center gap-2"
@@ -66,11 +66,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#FF6B00] shrink-0" />
-                <span>+91 98765 43210 / +91 91234 56789</span>
+                <span>(91) 84012 96111</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#FF6B00] shrink-0" />
-                <span>hello@jkdigital.in</span>
+                <span>kalaljignesh00@gmail.com</span>
               </div>
             </div>
           </div>

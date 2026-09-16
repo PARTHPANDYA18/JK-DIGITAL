@@ -83,7 +83,7 @@ export default function AuditPage() {
 
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://wa.me/919876543210?text=Hi%20JK%20Digital,%20I%20just%20submitted%20my%20audit%20request%20and%20want%20to%20speed%20up%20review."
+                href="https://wa.me/918401296111?text=Hi%20JK%20Digital,%20I%20just%20submitted%20my%20audit%20request%20and%20want%20to%20speed%20up%20review."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3.5 rounded-xl bg-[#FF6B00] text-black font-bold text-xs uppercase tracking-wider"
@@ -155,7 +155,7 @@ export default function AuditPage() {
                 <input
                   type="tel"
                   required
-                  placeholder="+91 98765 43210"
+                  placeholder="+91 84012 96111"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-[#FF6B00] transition-colors"
